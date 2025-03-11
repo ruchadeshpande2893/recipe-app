@@ -1,0 +1,41 @@
+.home {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px auto;
+    width: 100vw;
+}
+
+.tagline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / -1;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+}
+
+.thumbnail {
+    padding: 20px;
+}
+
+.thumbnail > a > img {
+    height: 400px;
+    width: 300px;
+}
+
+.thumbnail > p {
+    font-size: large;
+    font-weight: bold;
+    background-color: #FFA500;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+}
+
+
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
