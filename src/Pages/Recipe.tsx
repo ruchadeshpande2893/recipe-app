@@ -55,10 +55,9 @@ export default function Recipe() {
                 <img src={"../../images/" + img} />
             </div>
             <div className="ingredients">
-                <p>Ingredients</p>
+                <p>Ingredients:</p>
                 <UnorderedList list={ingredients} />
-            </div>
-            <div className="instructions">
+                <p>Instructions:</p>
                 <UnorderedList list={instructions} />
             </div>
         </div>

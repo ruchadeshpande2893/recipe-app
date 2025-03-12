@@ -1,7 +1,7 @@
 .recipe {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 75px 36px 1fr 1fr;
+    grid-template-rows: 75px 36px 1fr;
     width: 100vw;
 }
 
@@ -35,7 +35,7 @@
     grid-column: 2 / -1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 
 .ingredients {
@@ -49,16 +49,11 @@
 }
 
 .recipe-image > img {
-    height: 450px;
-    width: 500px;
+    height: 700px;
+    width: 600px;
 }
 
 .ingredients > p {
     font-size: 20px;
     font-weight: bold;
 }
-
-.ingredients > ul {
-    list-style-type: none;
-}
-

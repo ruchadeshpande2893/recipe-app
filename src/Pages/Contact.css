@@ -1,0 +1,31 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.contact-container {
+    height: 500px;
+    width: 650px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.contact-container > h1 {
+    grid-column: 1 / -1;
+}
+
+form {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 3fr 1fr;
+    gap: 10px;
+}
+
+.common { 
+    font-family: "Montserrat", sans-serif;
+}
+
+textarea {
+    resize: none;
+}
